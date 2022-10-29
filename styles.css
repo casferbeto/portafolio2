@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+:root {
+--colorPrimary: #8758ff;
+--secondcolor: #B7C4CF;
+--zindex-navbar: 5000;
+font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.prinprincipal-containercipal {
+    max-width: 1024px;
+
+
+}
+
+.navbar {
+    background-color: var(--colorPrimary);
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    z-index: var(--zindex-navbar);
+  
+}
+
+.navbar .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.navbar .menu {
+    margin-top: 1rem;
+}
+
+.navbar .menu li {
+    display: inline-block;
+}
+
+.home {
+    padding-top: 3rem
+}
+
+.home .content_bg-home {
+    background-color: var(--colorPrimary);
+    height: 30vh;
+}
+
+.home .box_img-home {
+    width: 300px;
+    border-radius: 30%;
+    overflow: hidden;
+    position: relative;
+    top: -150px;
+    
+}
+
+.home .box_img-home img {
+    width: 100%;
+}
+
+.home .box_info-home {
+    text-align: center;
+    position: relative;
+    top: -100px;
+
+}
+.home .box_info-home .title-home {
+    font-size: 3rem;
+}
+.home .box_info-home .title-home span { 
+    color: var(--colorPrimary);
+}
+
+.about {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.about p {
+    padding-top: 1rem;
+    
+}
+
+.skills {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.skills svg {
+   fill: var(--colorPrimary);
+}
+
+.mis-skills {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact {
+    margin-bottom: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+.contact h2 {
+    margin-bottom: 2rem;
+}
+
+form .box-input > * {
+    display: block;
+    
+}
+
+form .submit {
+    background-color: var(--colorPrimary);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+
+.footer {
+    background-color: var(--colorPrimary);
+    color: white;
+    margin-top: 3rem;
+    text-align: center;
+}
